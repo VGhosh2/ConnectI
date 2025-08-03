@@ -1,38 +1,39 @@
+# LinkedIn Clone
 
-Frontend
+A modern LinkedIn-style web app built with React and Firebase.
 
-    React: Primary framework (react, react-dom)
+---
 
-    Vite: Build tool and development server (vite, @vitejs/plugin-react)
+## 🚀 Tech Stack
 
-    Sass (SCSS): Styling preprocessor (sass)
+### Frontend
+- **React** – UI library
+- **Vite** – Build tool and dev server
+- **Sass (SCSS)** – Styling preprocessor
+- **Ant Design (Antd)** – UI components
+- **React Router** – Client-side routing
+- **React Quill** – Rich text editor
+- **React Toastify** – Notifications
+- **React Icons** – Icon set
+- **moment** – Date handling
+- **match-sorter** & **sort-by** – Filtering/sorting
+- **react-google-button** – Styled Google auth button
+- **react-uuid** – Unique ID generation
+- **quill-emoji** – Emoji support in Quill editor
 
-    Ant Design (Antd): UI component library (antd)
+### Backend / Services
+- **Firebase** – Authentication, Firestore, Hosting
+  - `firebase`
+  - `firebase-tools`
 
-    React Router: For routing (react-router-dom)
+## 📦 Setup
 
-    React Quill: Rich text editor (react-quill)
+```bash
+# Install dependencies
+npm install
 
-    React Toastify: Toast notifications (react-toastify)
+# Start dev server
+npm run dev
 
-    React Icons: Icon library (react-icons)
-
-    Other Frontend Utilities:
-
-        moment: Date handling
-
-        match-sorter, sort-by: Sorting/filtering utilities
-
-        react-google-button: Styled Google sign-in button
-
-        react-uuid: UUID generation
-
-        quill-emoji: Emoji support for Quill editor
-
-Backend / Servicess
-
-    Firebase: Backend-as-a-Service (authentication, Firestore, etc.)
-
-        firebase
-
-        firebase-tools (for CLI & deployment)
+# Build for production
+npm run build
